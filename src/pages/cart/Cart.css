@@ -42,12 +42,9 @@
     flex-direction: row;
 }
 
-.Cart .cart-content .product-column .product-image {
-    width: 180px;
-}
-
 .Cart .cart-content .product-column .product-image img {
-    width: 100%;
+    width: 180px;
+    height: 140px;
 }
 
 .Cart .cart-content .product-column .product-info {
@@ -106,5 +103,9 @@
     }
     .Cart .cart-content .total-column {
         display: none;
+    }
+    .Cart .cart-content .product-column .product-image img {
+        width: 75px;
+        height: 50px;
     }
 }
