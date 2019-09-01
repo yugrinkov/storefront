@@ -98,10 +98,16 @@
 @media screen and (max-width: 1024px) {
     .Category .product-list .product-item {
       margin: 0;
-      width: 100%;
+      width: auto;
     }
     .Category .category-header .header-content {
         width: 100%;
         min-width: initial;
+    }
+    .Category .product-list {
+        flex-direction: column;
+    }
+    .Category .page-container {
+        justify-content: center;
     }
 }
