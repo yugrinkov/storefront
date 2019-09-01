@@ -1,0 +1,29 @@
+.qty-input-wrapper {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.qty-input-wrapper .qty-buttons-wrapper {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 5px;
+}
+
+.qty-input-wrapper .qty-input {
+    height: 45px;
+    width: 45px;
+    box-sizing: border-box;
+    border: 0;
+    background-color: #ddd;
+    text-align: center;
+}
+
+.qty-input-wrapper .qty-buttons-wrapper button {
+    width: 20px;
+    height: 20px;
+    border: 0;
+    
+}

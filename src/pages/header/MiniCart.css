@@ -1,0 +1,39 @@
+.mini-cart .mini-cart-entry {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.mini-cart .mini-cart-entry .remove-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.mini-cart .mini-cart-entry-image img {
+    width: 100px;
+    height: 75px;
+}
+
+.mini-cart .mini-cart-entry-info {
+    margin: 0 15px;
+}
+
+.mini-cart .mini-cart-entries {
+    border-bottom: 1px solid #ddd;
+}
+
+.mini-cart .total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0 0;
+}
+
+.mini-cart .mini-cart-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}

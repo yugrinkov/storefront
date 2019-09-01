@@ -1,0 +1,110 @@
+.Cart {
+    background-color: #eee;
+    min-height: 100vh;
+}
+
+.Cart .cart-header {
+    min-height: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    background-color: #eee;
+    border-top: 1px solid #ddd;
+}
+
+.Cart .page-container {
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    justify-content: center;
+}
+
+.Cart .cart-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Cart .cart-content .content-header,  .Cart .cart-content .cart-entry {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+    font-size: 13px;
+}
+
+.Cart .cart-content .product-column {
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+}
+
+.Cart .cart-content .product-column .product-image {
+    width: 180px;
+}
+
+.Cart .cart-content .product-column .product-image img {
+    width: 100%;
+}
+
+.Cart .cart-content .product-column .product-info {
+    margin-left: 15px;
+}
+
+.Cart .cart-content .quantity-column {
+    width: 15%;
+}
+
+.Cart .cart-content .total-column {
+    width: 15%;
+}
+
+.Cart .cart-content .action-column {
+    width: 5%;
+    text-align: right;
+}
+
+.Cart .cart-content .action-column .remove-button{
+    cursor: pointer;
+}
+
+.Cart .cart-overview-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-bottom: 1px solid #ddd;
+}
+
+.Cart .cart-overview {
+    width: 35%;
+    padding: 20px 0;
+}
+
+.Cart .cart-overview .cart-total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.Cart .user-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .Cart .cart-content .action-column {
+        width: 10%;
+    }
+    .Cart .cart-content .quantity-column {
+        width: 25%;
+    }
+    .Cart .cart-content .total-column {
+        display: none;
+    }
+}
