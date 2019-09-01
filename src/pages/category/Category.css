@@ -57,7 +57,7 @@
 
 .Category .page-container .product-item .product-image {
     height: 230px;
-    width: 100%;
+    max-width: 100%;
 }
 
 .Category .page-container .product-item .product-brand {
