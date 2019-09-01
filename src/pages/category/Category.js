@@ -11,7 +11,7 @@ const Category = props => {
             <div className="category-header">
                 <div className="header-content">
                     <h1 className="title"><span>Category title</span></h1>
-                    <p class="description">Category description</p>
+                    <p className="description">Category description</p>
                 </div>
             </div>
             <div className="page-container">
