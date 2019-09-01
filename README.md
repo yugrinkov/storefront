@@ -1,10 +1,11 @@
 # Storefront Single-Page App
 
 ### Instructions
+App is available in the heroku cloud: https://storefront-yugrynkov.herokuapp.com/
 Due to time limitation were not implemented folllow things:
-* did not implement memoization mechanism for container components (for instance, using redux-reselect library)
+* did not implement memoization mechanism for redux container components (for instance, using redux-reselect library)
 * did not extract text labels from components into separate JS module (so, text is hardcoded in JSX templates)
-* site layout implemented approximately (did not follow to exact sizes, fonts, paddings etc)
+* site layout was implemented approximately (did not follow to exact sizes, fonts, paddings etc)
 
 This assignment requires [Node 6+](https://nodejs.org/en/) and was created using
 [create-react-app](https://github.com/facebook/create-react-app).
